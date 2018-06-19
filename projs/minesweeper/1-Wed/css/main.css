@@ -1,0 +1,96 @@
+body {
+    margin: auto;
+    width: 50%;
+    align-self: center;
+    align-content: center;
+    align-items: center;
+}
+
+.cell{
+    font-size: 20px;
+    text-align: center;
+    width:50px;  
+    height:50px;  
+    cursor: pointer;
+    border: 1px solid;
+    margin: auto;
+    display: inline-block;
+}
+
+.unmarked{
+    background-color: grey;
+    display: inline-block;
+}
+
+/* .levels{
+    display: inline;
+} */
+
+img {
+    height: 50px;
+    width: 50px;
+    display: none;
+}
+
+/* .upper-control-menu{
+    width:500px;  
+    height:100px;
+    background-color: rgb(161, 161, 161);
+    display: block;    
+} */
+
+.cells-left-to-mark{
+    width:80px;  
+    height:40px;
+    background-color: rgb(226, 222, 217);
+    /* float: left; */
+    display: inline-block;
+}
+
+.timer{
+    width:80px;  
+    height:40px;
+    background-color: rgb(226, 222, 217);
+    /* float: right; */
+    display: inline-block;
+}
+
+
+.smiley{
+    width:80px;  
+    height:40px;
+    background-color: rgb(226, 222, 217);
+    /* float: center; */
+    display: inline-block;
+} 
+
+.smiley img {
+    width:30px;  
+    height:30px;
+    display: block;
+    margin: auto;
+}
+
+.beginner{
+    width:80px;  
+    height:40px;
+    background-color: rgb(226, 222, 217);
+    text-align: center;
+    display: inline-block;
+}
+
+.medium{
+    width:80px;  
+    height:40px;
+    background-color: rgb(226, 222, 217);
+    text-align: center;
+    display: inline-block;    
+}
+
+.expert{
+    width:80px;  
+    height:40px;
+    background-color: rgb(226, 222, 217);
+    text-align: center;
+    display: inline-block; 
+}

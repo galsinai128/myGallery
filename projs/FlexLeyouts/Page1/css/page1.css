@@ -1,0 +1,30 @@
+@import "small-screan.css";
+@import "medium-screan.css";
+@import "large-screan.css";
+
+body,html{
+    height: 100%;
+}
+div{
+    margin: 3px;
+    border-radius: 3%; 
+}
+
+.nav{
+    background-color: rgba(17, 17, 71, 0.89);
+}
+
+.main-page{
+    background-color: rgba(55, 134, 199, 0.89);
+}
+
+.side-menu1{
+    background-color: rgba(235, 130, 10, 0.89);
+}
+.side-menu2{
+    background-color: rgba(228, 87, 197, 0.89);
+}
+
+.footer{
+    background-color: rgba(59, 59, 163, 0.89);
+}

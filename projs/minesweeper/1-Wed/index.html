@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/main.css">
+    <title>Mine-Sweeper</title>
+</head>
+
+<body onload="initGame()">
+    <div class="mine-sweeper">
+            <ul>
+                <li class="cells-left-to-mark">
+                    0
+                </li>
+                <li class="smiley">
+                    <img src="img/smiley.jpg" onclick="restart()">
+                </li>
+                <li class="timer">
+                    0
+                </li>
+            </ul>
+
+        <table>
+            <tbody class="board"></tbody>
+        </table>
+        <ul class="levels">
+            <li class="beginner">Beginner</li>
+            <li class="medium">Medium</li>
+            <li class="expert">Expert</li>
+        </ul>
+    </div>
+    <script src=js/main.js></script>
+</body>
+
+</html>

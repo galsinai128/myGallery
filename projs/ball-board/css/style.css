@@ -1,0 +1,21 @@
+body {background-color: black; color:white}
+
+.cell {width:40px; height:40px;text-align: center}
+.cell img {width:25px; height:auto}
+.floor {background-color: gray}
+.wall {background-color: brown}
+
+.square {
+    border: solid 3px black;
+    background-color: gray;
+    width: 200px;
+    height: 80px;
+    text-align: center;
+    color:white;
+    font-size: 30px;
+    text-align: center;
+    margin: auto;
+    display: none;
+}
+
+

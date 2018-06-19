@@ -1,0 +1,60 @@
+@import "desktop.css";
+@import "mobile.css";
+
+body,html{
+    height: 100%;
+}
+
+
+.upper-container{
+    height: 3%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.upper-container:first-child{
+    margin-left: 1.5em;
+}
+
+.point{
+    border-radius:100%;
+    background-color: #d3d4e1;
+    width: 0.5em;
+    height: 0.5em;
+    margin: 0.15em; 
+}
+
+.nav{
+    background-color: #31353d;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    height: 10%;
+}
+
+.main-container{
+    height: 87%;
+}
+
+.cart{
+    margin-right: 1em;
+}
+
+.main-page{
+    background-color: #c6cae2;
+}
+
+.item{
+    height: 10em;
+    width: 10em;
+    background-color: gray;
+    margin: 1em;
+}
+
+.side-menu{
+    display: none;  
+}
+
+

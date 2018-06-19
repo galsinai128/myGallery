@@ -1,0 +1,42 @@
+@media (min-width: 992px) { /* and (max-width: 1200px) --- large screan and xlarge screan has same style*/
+    .page-container{    
+        height: 100%;
+        display:flex;
+        flex-direction: column;
+        margin: 0 auto;
+    }
+    .nav{
+        height: 10%;
+    }
+    
+    .menu-container{
+        display:flex;
+        flex-direction: row-reverse;
+        height: 80%;
+    }
+    
+    .side-bar-container{
+        display:flex;
+        flex-direction: column;
+        height: 100%;
+        width: 10%;
+    }
+    
+    .main-page{
+        height: 100%;
+        width: 90%;
+    }
+    
+    .side-menu1{
+        height: 60%;
+        width: 100%;
+    }
+    .side-menu2{
+        height: 40%;
+        width: 100%;
+    }
+    
+    .footer{
+        height: 10%;
+    }
+    }

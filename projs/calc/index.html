@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+    <div class = "calc">
+        <div class = "input-screen"></div>
+        <div class = "op-on-screen"></div>
+        
+        <div class = "calc-button" onclick="memoryClear()">MC</div>
+        <div class = "calc-button" onclick="memoryRecall()">MR</div>
+        <div class = "calc-button" onclick="memoryStore()">MS</div>
+        <div class = "calc-button" onclick="memoryAdd()">M+</div>
+        <div class = "calc-button" onclick="memorySub()">M-</div>
+        <div class = "calc-button" onclick="handleDeletion()">⌫</div>
+        <div class = "calc-button" onclick="handleClearance()">CE</div>
+        <div class = "calc-button" onclick="handleClearance()">C</div>
+        <div class = "calc-button" onclick="handleNot()">&not</div>
+        <div class = "calc-button" onclick="handleSqrt()">&#8730</div>
+        <div class = "calc-button" onclick="handleDigit(this)">7</div>
+        <div class = "calc-button" onclick="handleDigit(this)">8</div>
+        <div class = "calc-button" onclick="handleDigit(this)">9</div>
+        <div class = "calc-button" onclick="handleOp(this)">/</div>
+        <div class = "calc-button" onclick="handlePrecent()">%</div>
+        <div class = "calc-button" onclick="handleDigit(this)">4</div>
+        <div class = "calc-button" onclick="handleDigit(this)">5</div>
+        <div class = "calc-button" onclick="handleDigit(this)">6</div>
+        <div class = "calc-button" onclick="handleOp(this)">*</div>
+        <div class = "calc-button" onclick="handleInverse()">1/x</div>
+        <div class = "calc-button" onclick="handleDigit(this)">1</div>
+        <div class = "calc-button" onclick="handleDigit(this)">2</div>
+        <div class = "calc-button" onclick="handleDigit(this)">3</div>
+        <div class = "calc-button" onclick="handleOp(this)">-</div>
+        <div class = "calc-button">null</div>
+        <div class = "calc-button" onclick="handleDigit(this)">0</div>
+        <div class = "calc-button">null</div>
+        <div class = "calc-button" onclick="handleDot(this)">.</div>
+        <div class = "calc-button" onclick="handleOp(this)">+</div>
+        <div class = "calc-button" onclick="handleEqual()">=</div>
+    </div>
+    <script src=js/main.js></script>
+</body>
+</html>

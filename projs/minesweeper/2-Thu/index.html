@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/main.css">
+    <title>Mine-Sweeper</title>
+</head>
+
+<body onload="initGame()">
+    <div class="mine-sweeper">
+            <div>
+                <label class="stats cells-left-to-mark">
+                    0
+                </label>
+                <label class="smiley">
+                    <img src="img/smiley.jpg" onclick="restart()">
+                </label>
+                <label class="stats timer">
+                    0
+                </label>
+            </div>
+
+        <table>
+            <tbody class="board"></tbody>
+        </table>
+        <ul class="levels">
+            <li class="buttons beginner" onclick="setLevelClick(this)">BEGGINER</li>
+            <li class="buttons medium" onclick="setLevelClick(this)">MEDIUM</li>
+            <li class="buttons expert" onclick="setLevelClick(this)">EXPERT</li>
+        </ul>
+        <div class="best"></div>
+    </div>
+    <script src=js/main.js></script>
+</body>
+
+</html>

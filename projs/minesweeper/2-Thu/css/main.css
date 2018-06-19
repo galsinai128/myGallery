@@ -1,0 +1,99 @@
+body {
+    margin: auto;
+    width: 50%;
+    align-self: center;
+    align-content: center;
+    align-items: center;
+}
+
+tr{
+    margin: auto;
+    text-align: center;    
+}
+
+.mine-sweeper{
+    text-align: center;
+    background: linear-gradient( rgb(125, 125, 241),rgb(212, 211, 214));
+}
+
+.board{
+    margin: auto;
+    text-align: center;
+}
+
+table{
+    margin: auto;
+    text-align: center;
+}
+
+.cell{
+    font-size: 20px;
+    text-align: center;
+    width:50px;  
+    height:50px;  
+    cursor: pointer;
+    border: 1px solid;
+    margin: auto;
+    display: inline-block;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.unshown{
+    background-color: grey;
+    display: inline-block;
+}
+
+img {
+    height: 50px;
+    width: 50px;
+    display: none;
+}
+
+.stats{
+    width:50px;  
+    height:20px;
+    background: linear-gradient(rgb(241, 240, 247), rgb(28, 28, 206));
+    display: inline-block;
+    text-align: center;
+}
+
+
+.smiley{
+    /* background-color: azure; */
+    width:80px;  
+    height:40px;
+    /* float: center; */
+    display: inline-block;
+    margin-top: 10px;
+} 
+
+.smiley img {
+    width:30px;  
+    height:30px;
+    display: block;
+    margin: auto;
+}
+
+.buttons{
+    width:90px;  
+    height:40px;
+    background: linear-gradient(rgb(241, 240, 247), rgb(28, 28, 206));
+    text-align: center;
+    display: inline-block;
+    cursor: pointer;
+    font-weight: bold;
+    vertical-align: middle;
+}
+
+.best{
+    width:80px;  
+    height:40px;
+    background: linear-gradient(rgb(241, 240, 247), rgb(28, 28, 206));
+    text-align: center;
+    display: inline-block;
+}
+
+label{
+    text-align: center;
+    margin: auto;
+}
